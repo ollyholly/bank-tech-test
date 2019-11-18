@@ -1,4 +1,6 @@
-export default class Date {
-  getDate() {}
+class Date {
+  getDate() {
+    return true;
+  }
 }
 module.exports = Date;
