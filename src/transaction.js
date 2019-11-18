@@ -1,4 +1,4 @@
-export default class Transaction {
+class Transaction {
   constructor(date = new Date()) {
     this.date = date;
     this.balance = balance;
@@ -6,3 +6,4 @@ export default class Transaction {
     this.debit = debit;
   }
 }
+module.exports = Transaction;

@@ -1,11 +1,33 @@
-import Statement from './statement';
-import Transaction from './transaction';
+const Transaction = require('../src/transaction');
+const Statement = require('../src/statement');
 
-export default class Account {
+class Account {
   constructor(statement = new Statement(), TransactionClass = Transaction) {
-    this._TransactionClass = TransactionClass;
-    this._statement = statement;
-    this._balance = 0;
-    this._transactionHistory = [];
+    this.TransactionClass = TransactionClass;
+    this.statement = statement;
+    this.balance = 0;
+    this.transactionHistory = [];
+  }
+
+  deposit(credit) {
+    this.balance += credit;
+    return this.storeTransaction(0, credit);
+  }
+
+  withdraw(debit) {
+    this.balance -= debit;
+    return this.storeTransaction(debit, 0);
+  }
+
+  showStatement() {
+    return this.statement.printStatement();
+  }
+
+  storeTransaction(credit, debit) {
+    const transaction = new this.TransactionClass(credit, debit, this.balance);
+    this.transactionHistory.unshift(transaction);
+    return transaction;
   }
 }
+
+module.exports = Account;

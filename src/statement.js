@@ -1,3 +1,4 @@
-export default class Statement {
+class Statement {
   printStatement() {}
 }
+module.exports = Statement;
