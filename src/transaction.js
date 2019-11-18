@@ -1,7 +1,8 @@
-const Date = require('./date');
+/* eslint-disable no-underscore-dangle */
+const FormatDate = require('./formatdate');
 
 class Transaction {
-  constructor(date = new Date(), credit, debit, balance) {
+  constructor(date = new FormatDate(), credit, debit, balance) {
     this._date = date.getDate();
     this._credit = credit;
     this._debit = debit;
