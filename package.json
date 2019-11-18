@@ -1,0 +1,28 @@
+{
+  "name": "bank-tech-test",
+  "version": "1.0.0",
+  "description": "Bank account interface build as a tech test for week 10 at Makers Academy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ollyholly/bank-tech-test.git"
+  },
+  "author": "Olly Holovchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ollyholly/bank-tech-test/issues"
+  },
+  "homepage": "https://github.com/ollyholly/bank-tech-test#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^23.0.4"
+  }
+}
