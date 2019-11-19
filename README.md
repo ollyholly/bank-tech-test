@@ -1,13 +1,13 @@
 # Bank Tech Test (Week 10 at Makers Academy)
 
-A command line app that can help user create bank account, make deposits, withdraw money and print the account statement.
+A command line app that can help a user to create a bank account, make deposits, withdraw money and print the account statement.
 <br><br>
 
 ## How to Install
 
 Describe how to install and run your code and tests.
 
-Clone the repo and in the project folder run:
+Clone the repository. In the project folder run:
 
 ```
 npm install
