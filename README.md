@@ -82,10 +82,14 @@ I would like statement to show dates, amount of transaction and final balance
 
 Every class has a single responsibility that can be described with one sentence:
 
-_Account_ is the main interface for interaction with the bank account.
-_Transaction_ stores transaction details(date, credit, debit, balance).
-_Format Date_ records and formats the date of transaction.
-_Statement_ formats transaction history into a printable format.
+__Account__ is the main interface for interaction with the bank account.
+
+__Transaction__ stores transaction details(date, credit, debit, balance).
+
+__Format Date__ records and formats the date of transaction.
+
+__Statement__ formats transaction history into a printable format.
+
 
 ![Domain Model](./public/uml.png)
 
@@ -104,6 +108,7 @@ To view test coverage run
 ```
 npx jest --coverage
 ```
+
 
 ![Tests](./public/tests.png)<br><br>
 ![Test Coverage](./public/coverage.png)
