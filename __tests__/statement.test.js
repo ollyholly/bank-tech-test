@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const Statement = require('../src/statement');
 
 describe('Statement', () => {
