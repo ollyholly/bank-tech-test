@@ -1,5 +1,8 @@
 # Bank Tech Test (Week 10 at Makers Academy)
 
+A command line app that can help user create bank account, make deposits, withdraw money and print the account statement.
+<br><br>
+
 ## How to Install
 
 Describe how to install and run your code and tests.
@@ -9,6 +12,8 @@ Clone the repo and in the project folder run:
 ```
 npm install
 ```
+
+<br><br>
 
 ## How to Use
 
@@ -43,6 +48,8 @@ a.deposit(150)
 a.showStatement()
 ```
 
+<br><br>
+
 ## User Stories
 
 ```
@@ -69,16 +76,20 @@ So that I know the detail activity
 I would like statement to show dates, amount of transaction and final balance
 ```
 
+<br><br>
+
 ## Approach
 
-Describe how you structured your code. Why did you do it this way?
-Describe how you approached designing your solution to the problem.
+Every class has a single responsibility that can be described with one sentence:
 
-#### Diagrams
+_Account_ is the main interface for interaction with the bank account.
+_Transaction_ stores transaction details(date, credit, debit, balance).
+_Format Date_ records and formats the date of transaction.
+_Statement_ formats transaction history into a printable format.
 
 ![Domain Model](./public/uml.png)
 
-#### Screenshots
+<br><br>
 
 ## Tests
 
@@ -94,5 +105,5 @@ To view test coverage run
 npx jest --coverage
 ```
 
-![Tests](./public/tests.png)
+![Tests](./public/tests.png)<br><br>
 ![Test Coverage](./public/coverage.png)
