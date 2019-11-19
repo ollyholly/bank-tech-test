@@ -1,3 +1,4 @@
+/* eslint-disable class-methods-use-this */
 const Transaction = require('../src/transaction');
 const Statement = require('../src/statement');
 
@@ -27,7 +28,7 @@ class Account {
   }
 
   showStatement() {
-    return this.statement.printStatement();
+    return this.statement.printStatement(this.transactionHistory);
   }
 
   storeTransaction(credit, debit) {
