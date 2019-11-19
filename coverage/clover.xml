@@ -1,61 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1574158086558" clover="3.2.0">
-  <project timestamp="1574158086558" name="All files">
-    <metrics statements="43" coveredstatements="43" conditionals="9" coveredconditionals="6" methods="15" coveredmethods="14" elements="67" coveredelements="63" complexity="0" loc="43" ncloc="43" packages="1" files="4" classes="4"/>
+<coverage generated="1574172853915" clover="3.2.0">
+  <project timestamp="1574172853915" name="All files">
+    <metrics statements="55" coveredstatements="55" conditionals="11" coveredconditionals="11" methods="19" coveredmethods="19" elements="85" coveredelements="85" complexity="0" loc="55" ncloc="55" packages="1" files="4" classes="4"/>
     <file name="account.js" path="/Users/student/Google Drive/Coding/Makers/Week10/bank-tech-test/src/account.js">
-      <metrics statements="25" coveredstatements="25" conditionals="8" coveredconditionals="6" methods="8" coveredmethods="8"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="7" count="8" type="stmt"/>
-      <line num="8" count="8" type="stmt"/>
-      <line num="9" count="8" type="stmt"/>
-      <line num="10" count="8" type="stmt"/>
-      <line num="14" count="5" type="stmt"/>
-      <line num="15" count="3" type="stmt"/>
-      <line num="17" count="3" type="stmt"/>
-      <line num="21" count="2" type="stmt"/>
-      <line num="22" count="2" type="cond" truecount="2" falsecount="0"/>
+      <metrics statements="25" coveredstatements="25" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="8"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="7" count="9" type="stmt"/>
+      <line num="8" count="9" type="stmt"/>
+      <line num="9" count="9" type="stmt"/>
+      <line num="10" count="9" type="stmt"/>
+      <line num="14" count="7" type="stmt"/>
+      <line num="15" count="5" type="stmt"/>
+      <line num="17" count="5" type="stmt"/>
+      <line num="21" count="3" type="stmt"/>
+      <line num="22" count="3" type="cond" truecount="2" falsecount="0"/>
       <line num="23" count="1" type="stmt"/>
-      <line num="26" count="1" type="stmt"/>
-      <line num="27" count="1" type="stmt"/>
-      <line num="31" count="1" type="stmt"/>
-      <line num="35" count="5" type="stmt"/>
-      <line num="36" count="5" type="stmt"/>
-      <line num="37" count="5" type="stmt"/>
-      <line num="41" count="6" type="stmt"/>
-      <line num="45" count="2" type="stmt"/>
-      <line num="49" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="26" count="2" type="stmt"/>
+      <line num="27" count="2" type="stmt"/>
+      <line num="31" count="2" type="stmt"/>
+      <line num="35" count="8" type="stmt"/>
+      <line num="36" count="8" type="stmt"/>
+      <line num="37" count="8" type="stmt"/>
+      <line num="41" count="9" type="stmt"/>
+      <line num="45" count="3" type="stmt"/>
+      <line num="49" count="10" type="cond" truecount="2" falsecount="0"/>
       <line num="50" count="1" type="stmt"/>
-      <line num="52" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="52" count="9" type="cond" truecount="2" falsecount="0"/>
       <line num="53" count="1" type="stmt"/>
-      <line num="58" count="1" type="stmt"/>
+      <line num="58" count="2" type="stmt"/>
     </file>
     <file name="formatdate.js" path="/Users/student/Google Drive/Coding/Makers/Week10/bank-tech-test/src/formatdate.js">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="12" count="3" type="stmt"/>
-    </file>
-    <file name="statement.js" path="/Users/student/Google Drive/Coding/Makers/Week10/bank-tech-test/src/statement.js">
-      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <line num="4" count="1" type="stmt"/>
-    </file>
-    <file name="transaction.js" path="/Users/student/Google Drive/Coding/Makers/Week10/bank-tech-test/src/transaction.js">
-      <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="0" methods="5" coveredmethods="5"/>
-      <line num="2" count="2" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
+      <line num="5" count="4" type="stmt"/>
       <line num="6" count="4" type="stmt"/>
       <line num="7" count="4" type="stmt"/>
       <line num="8" count="4" type="stmt"/>
       <line num="9" count="4" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
-      <line num="21" count="1" type="stmt"/>
-      <line num="25" count="1" type="stmt"/>
-      <line num="28" count="2" type="stmt"/>
+      <line num="12" count="4" type="stmt"/>
+    </file>
+    <file name="statement.js" path="/Users/student/Google Drive/Coding/Makers/Week10/bank-tech-test/src/statement.js">
+      <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="15" count="4" type="stmt"/>
+      <line num="16" count="4" type="stmt"/>
+      <line num="17" count="4" type="stmt"/>
+      <line num="18" count="4" type="stmt"/>
+      <line num="20" count="4" type="stmt"/>
+      <line num="25" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="26" count="4" type="stmt"/>
+      <line num="28" count="8" type="stmt"/>
+      <line num="31" count="3" type="stmt"/>
+    </file>
+    <file name="transaction.js" path="/Users/student/Google Drive/Coding/Makers/Week10/bank-tech-test/src/transaction.js">
+      <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="5" coveredmethods="5"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="6" count="7" type="stmt"/>
+      <line num="7" count="7" type="stmt"/>
+      <line num="8" count="7" type="stmt"/>
+      <line num="9" count="7" type="stmt"/>
+      <line num="13" count="4" type="stmt"/>
+      <line num="17" count="4" type="stmt"/>
+      <line num="21" count="4" type="stmt"/>
+      <line num="25" count="4" type="stmt"/>
+      <line num="28" count="3" type="stmt"/>
     </file>
   </project>
 </coverage>

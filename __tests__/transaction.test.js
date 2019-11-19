@@ -7,7 +7,7 @@ describe('Transaction', () => {
   beforeEach(() => {
     mockDate = jest.fn();
     mockDate.getDate = jest.fn();
-    transaction = new Transaction(mockDate, 100, 0, 300);
+    transaction = new Transaction(100, 0, 300, mockDate);
   });
 
   describe('#Date', () => {

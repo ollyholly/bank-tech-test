@@ -17,15 +17,15 @@ class Statement {
       const debit = this.formatNumber(transaction.debit);
       const balance = this.formatNumber(transaction.balance);
 
-      console.log(`${date} || ${credit} || ${debit} || ${balance}`);
+      console.log(`${date} ||${credit}||${debit}||${balance}`);
     });
   }
 
   formatNumber(number) {
     if (number === 0) {
-      return '';
+      return ' ';
     }
-    return number.toFixed(2);
+    return ` ${number.toFixed(2)} `;
   }
 }
 module.exports = Statement;

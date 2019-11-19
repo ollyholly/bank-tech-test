@@ -14,7 +14,7 @@ class Account {
     this.verifyNumber(credit);
     this.balance += credit;
 
-    return this.storeTransaction(0, credit);
+    return this.storeTransaction(credit, 0);
   }
 
   withdraw(debit) {
@@ -24,7 +24,7 @@ class Account {
     }
 
     this.balance -= debit;
-    return this.storeTransaction(debit, 0);
+    return this.storeTransaction(0, debit);
   }
 
   showStatement() {

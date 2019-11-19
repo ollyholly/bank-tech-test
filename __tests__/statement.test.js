@@ -20,7 +20,7 @@ describe('Statement', () => {
   describe('#PrintStatement', () => {
     test('A user can print a statement with transaction history', () => {
       const header = 'date || credit || debit || balance';
-      const transaction = '18/11/2019 || 100.00 ||  || 800.00';
+      const transaction = '18/11/2019 || 100.00 || || 800.00 ';
 
       statement.printStatement(mockTransactionHistory);
       expect(console.log.mock.calls[0][0]).toBe(`${header}`);

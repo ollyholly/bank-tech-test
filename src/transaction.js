@@ -2,11 +2,11 @@
 const FormatDate = require('./formatdate');
 
 class Transaction {
-  constructor(date = new FormatDate(), credit, debit, balance) {
-    this._date = date.getDate();
+  constructor(credit, debit, balance, date = new FormatDate()) {
     this._credit = credit;
     this._debit = debit;
     this._balance = balance;
+    this._date = date.getDate();
   }
 
   get date() {

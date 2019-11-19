@@ -4,7 +4,44 @@
 
 Describe how to install and run your code and tests.
 
+Clone the repo and in the project folder run:
+
+```
+npm install
+```
+
 ## How to Use
+
+1. In command line run `node`
+2. Initialise the main module:
+
+```
+const Account = recuire('./src/account.js')
+```
+
+3. Create a new bank account:
+
+```
+a = new Account
+```
+
+4. To deposit money type (e.g. 100)
+
+```
+a.deposit(100)
+```
+
+5. To withdraw money type (e.g. 150)
+
+```
+a.deposit(150)
+```
+
+6. To view account statement type
+
+```
+a.showStatement()
+```
 
 ## User Stories
 
@@ -39,6 +76,23 @@ Describe how you approached designing your solution to the problem.
 
 #### Diagrams
 
+![Domain Model](./public/uml.png)
+
 #### Screenshots
 
 ## Tests
+
+To run tests type
+
+```
+npm test
+```
+
+To view test coverage run
+
+```
+npx jest --coverage
+```
+
+![Tests](./public/tests.png)
+![Test Coverage](./public/coverage.png)
